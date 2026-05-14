@@ -1,7 +1,7 @@
 # Sentinel-2 Remote Sensing Portfolio
 
-## 🔥 Project 1: Wildfire Burn Severity Mapping (Asciano, 2026)
-**Location:** Asciano, Tuscany, Italy
+## 🔥 Project 1: Wildfire Burn Severity Mapping (Asciano Pisano, 2026)
+**Location:** Asciano Pisano, Tuscany, Italy
 **Objective:** Assessment of wildfire impact and burn severity classification using multi-temporal Sentinel-2 imagery.
 
 ### 🛰️ Data & Processing
