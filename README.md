@@ -25,5 +25,13 @@ Total mapped area: **259.3 ha**
 ### Visual Result
 ![Asciano Wildfire 2026](outputs/AscianoWildfire2026_img.png)
 
+### 💻 The Logic (GEE Script)
+The analysis was performed using **JavaScript in Google Earth Engine**. The script automates:
+*   Multi-temporal mosaic creation from Sentinel-2 L2A collections.
+*   Automated NBR calculation and dNBR subtraction.
+*   Thresholding based on USGS burn severity levels.
+
+*You can find the full processing script in the `/scripts` folder of this repository.*
+
 ---
 **N. Poddighe | University of Cagliari**
