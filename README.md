@@ -1,2 +1,29 @@
-# sentinel2-remote-sensing
-Multispectral analysis and environmental monitoring using Sentinel-2 (Level-2A) data. A collection of Copernicus-based projects focusing on soil health, vegetation indices, and land cover classification.
+# Sentinel-2 Remote Sensing Portfolio
+
+## 🔥 Project 1: Wildfire Burn Severity Mapping (Asciano, 2026)
+**Location:** Asciano, Tuscany, Italy
+**Objective:** Assessment of wildfire impact and burn severity classification using multi-temporal Sentinel-2 imagery.
+
+### 🛰️ Data & Processing
+*   **Sensor:** Sentinel-2 L2A (Copernicus/ESA).
+*   **Temporal Range:** 
+    *   Pre-fire: 2026-04-27
+    *   Post-fire: 2026-05-02
+*   **Methodology:** Calculation of the **Normalized Burn Ratio (NBR)** for both dates and subsequent derivation of **dNBR** (delta NBR).
+*   **Classification:** Burn severity levels mapped using standard **USGS thresholds**.
+
+### 🛠️ Software Stack
+*   **Google Earth Engine (GEE):** Used for large-scale data retrieval and spectral index calculation.
+*   **QGIS 4.0:** Used for spatial analysis, statistical calculation of affected hectares, and final cartographic production.
+
+### 📊 Key Findings
+Total mapped area: **259.3 ha**
+*   **High Severity:** 97.8 ha
+*   **Moderate-High:** 68.6 ha
+*   **Moderate-Low:** 92.9 ha
+
+### Visual Result
+![Asciano Wildfire 2026](outputs/AscianoWildfire2026_img.png)
+
+---
+**N. Poddighe | University of Cagliari**
