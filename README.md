@@ -31,6 +31,29 @@ The analysis was performed using **JavaScript in Google Earth Engine**. The scri
 *   Automated NBR calculation and dNBR subtraction.
 *   Thresholding based on USGS burn severity levels.
 
+---
+
+## 🛰️ Project 2: Supervised Land Cover Classification (Barbagia, 2023)
+**Location:** Barbagia Region, Sardinia, Italy
+**Objective:** Automated mapping of 5 land cover classes using Machine Learning to assess landscape distribution.
+
+### 🧠 Machine Learning Workflow
+*   **Algorithm:** Random Forest (50 trees).
+*   **Input Features:** Sentinel-2 Spectral Bands (B2, B3, B4, B8, B11, B12) + **NDVI** as an additional specialized band.
+*   **Data Partitioning:** 70% of points for training / 30% for validation (independent test set).
+*   **Accuracy Assessment:** Calculation of an **Overall Accuracy** and Confusion Matrix to validate the classifier's performance.
+
+### 📊 Classification Categories
+0. **Water** 🟦
+1. **Urban/Anthropogenic** 🟪
+2. **Worked/Bare Land** 🟨
+3. **Forest** 🟩
+4. **Transition Vegetation** 🟩 (Light)
+
+### Visual Result
+![Barbagia Land Cover 2023](outputs/Barbagia_LandCover_2023_img.png)
+
+*The processing script utilizing Google Earth Engine's `smileRandomForest` is available in the `/scripts` folder.*
 *You can find the full processing script in the `/scripts` folder of this repository.*
 
 ---
